@@ -58,3 +58,26 @@ main .container{
   background-color: white;
   border: 1px solid gray;
 }
+
+ul{
+  line-height: 200%;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.cerchio{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+}
+
+#check{
+  border: 1px solid green;
+}
+
+#cross{
+  border: 1px solid red;
+}
