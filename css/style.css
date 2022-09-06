@@ -1,3 +1,4 @@
+/* generali*/
 *{
   margin: 0;
   padding: 0;
@@ -13,13 +14,14 @@ body{
 .container {
   width: 70%;
   margin: 0 auto;
-  padding-left: 30px;
+  padding-left: 40px;
+  border-radius: 3%;
 }
 
+/*header*/
 header{
   background-color: white;
 }
-
 
 header img{
   vertical-align: middle;
@@ -28,16 +30,24 @@ header img{
 
 h1{
   display: inline-block;
+  font-size: 35px;
+  padding-top: 7px;
 }
 
+/*main*/
 main .container{
   margin-top: 30px;
   background-color: white;
 }
 
+h2{
+  font-size: 20px;
+}
+
+/*bottoni*/
 .buttons{
-  margin: 1px solid rgb(246, 248, 249);
   padding-bottom: 10px;
+  font-size: 13px;
 }
 
 .buttons span{
@@ -59,12 +69,15 @@ main .container{
   border: 1px solid gray;
 }
 
+
+/*lista*/
 ul{
-  line-height: 200%;
+  line-height: 220%;
   list-style-type: none;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 
+/*check e cross*/
 .cerchio{
   display: inline-block;
   width: 20px;
@@ -80,4 +93,36 @@ ul{
 
 #cross{
   border: 1px solid red;
+}
+
+/*pulsanti colorati*/
+.colorato{
+  font-size: 0.7rem;
+  padding: 7px;
+  border-radius: 30%;
+  color: white;
+}
+
+#editorial{
+  background-color: rgb(71, 173, 241);
+}
+
+#goals {
+  background-color: blueviolet;
+}
+
+#recruiting{
+  background-color: gray;
+}
+
+#mobile{
+  background-color: orange;
+}
+
+#website {
+  background-color: palevioletred;
+}
+
+#sales{
+  background-color: limegreen;
 }
