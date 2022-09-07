@@ -21,17 +21,19 @@ body{
 /*header*/
 header{
   background-color: white;
+  height: 70px;
+  padding: 10px 20px;
 }
 
 header img{
+  height: 100%;
   vertical-align: middle;
-  padding: 10px 5px 10px 20px;
 }
 
-h1{
-  display: inline-block;
-  font-size: 35px;
-  padding-top: 7px;
+#logo-text {
+  font-size: 38px;
+  font-weight: 900;
+  vertical-align: middle;
 }
 
 /*main*/
@@ -48,6 +50,7 @@ h2{
 .buttons{
   padding-bottom: 10px;
   font-size: 13px;
+  border-bottom: 2px solid rgb(246, 248, 249);
 }
 
 .buttons span{
@@ -64,9 +67,9 @@ h2{
 }
 
 .buttons #section{
-  color: gray;
+  color: lightgrey;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid lightgrey;
 }
 
 
@@ -89,17 +92,19 @@ ul{
 
 #check{
   border: 1px solid green;
+  color: green;
 }
 
 #cross{
   border: 1px solid red;
+  color: red;
 }
 
 /*pulsanti colorati*/
 .colorato{
   font-size: 0.7rem;
-  padding: 7px;
-  border-radius: 30%;
+  padding: 5px 10px;
+  border-radius: 10px;
   color: white;
 }
 
